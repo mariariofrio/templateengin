@@ -5,13 +5,13 @@ const Manager = require("./Manager")
 class Engineer extends Manager {
     constructor(name, id, email, GitHubUser) {
       super(name, id, email);
-      this.GitHubUser = GitHubUser;
+      this.github = GitHubUser;
     }
     getRole(){
         return "Engineer"
     }
     getGithub(){
-        return this.GitHubUser
+        return this.github
     }
     
   }
