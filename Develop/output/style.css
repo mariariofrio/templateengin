@@ -1,0 +1,17 @@
+.jumbotron{
+    background-color:rgb(237, 228, 238);
+    color: rgb(24, 23, 23);
+}
+body {
+    background-color: rosybrown;
+}
+.card-title {
+    color: darkred;
+}
+.card {
+    background-color: rgb(214, 209, 212);
+}
+.list-group-item {
+    background-color: rgb(214, 209, 212);
+    color: rgb(35, 31, 238);
+}
